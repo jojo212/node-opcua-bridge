@@ -9,6 +9,6 @@
 		"async": "1.5.2",
 		"node-opcua": "0.0.52",
 		"node-schedule": "1.1.0",
-		"toml": "2.3.0",		
+		"toml": "2.3.0"		
 	}
 }
