@@ -43,7 +43,7 @@ async.forever(
 );
 
 function loadConfig() {
-    var path = require("path").resolve(__dirname, 'config2.toml');
+    var path = require("path").resolve(__dirname, 'config.toml');
     var text = require("fs").readFileSync(path, "utf8");
     let tom = toml.parse(text);
     tom.measurements.forEach(function (p, i){
