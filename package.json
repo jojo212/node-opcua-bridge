@@ -1,16 +1,14 @@
 {
-	"name": "opcua-logger",
-	"description": "A logger for logging OPC UA data to InfluxDB",
+	"name": "opcua-bridge",
+	"description": "A bridge between two OPC UA servers",
 	"version": "0.0.1",
 	"private": true,
-	"main": "logger.js",
-	"author": "Jeroen Coussement (@coussej)",
+	"main": "bridge.js",
+	"author": "SG (@jojo212)",
 	"dependencies": {    
 		"async": "1.5.2",
-		"influx": "4.1.0",
 		"node-opcua": "0.0.52",
 		"node-schedule": "1.1.0",
-		"toml": "2.3.0",
-		"nedb": "1.8.0"
+		"toml": "2.3.0",		
 	}
 }
