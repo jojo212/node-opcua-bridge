@@ -11,7 +11,7 @@ This application will connect to an OPC UA server, subscribe to the measurements
 Make sure you have a recent version of node installed (>4), then execute the following commands.
 
 ```
-$ git clone https://github.com/jojo212/node-opcua-bridge.git
+$ git clone https://github.com/vova292/node-opcua-bridge.git
 $ cd node-opcua-bridge
 $ npm install
 ```
